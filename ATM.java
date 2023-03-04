@@ -28,6 +28,9 @@ public class Main {
                     case 2:
                         System.out.print("Çekmek istediğiniz tutarı giriniz: ");
                         price = sc.nextInt();
+                        if (price > balance){
+                            System.out.println("Bakiyeniz yetersiz, lütfen tekrar deneyiniz.");
+                        }
                         balance -= price;
                         break;
                     case 3:
