@@ -7,7 +7,7 @@ public class Main {
         do {
             System.out.println("Sayı girin: ");
             a = sc.nextInt();
-            if ((a % 2 == 0) && (a % 4 == 0)){
+            if (a % 4 == 0){
                 System.out.println("Sayı eklendi: " + a);
                 toplam += a;
             }
