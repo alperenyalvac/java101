@@ -14,7 +14,7 @@ public class Main {
     
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Taban değeri giri: ");
+        System.out.print("Taban değeri girin: ");
         int taban = sc.nextInt();
         System.out.print("Üs değeri girin: ");
         int us = sc.nextInt();
