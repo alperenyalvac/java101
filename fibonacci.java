@@ -7,7 +7,7 @@ public class Main {
         int n = sc.nextInt();
         int toplam, x = 0, y = 1;
         
-        for (int i = 1; i < 9; i++) {
+        for (int i = 1; i < n; i++) {
             System.out.println(x);
             toplam = x + y;
             x = y;
